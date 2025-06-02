@@ -1,0 +1,181 @@
+*,
+*::before,
+*::after {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* General Styles */
+.nav-container {
+  background-color: rgb(255, 255, 0);
+  color: rgb(235, 23, 23);
+  font-size: 1.5rem; /* Adjust font size for smaller screens */
+  text-align: center;
+  padding: 20px;
+}
+
+.nav p {
+  color: rgb(0, 0, 0);
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+.text {
+  font-size: 2rem; /* Adjusted for mobile */
+  color: chocolate;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 0px 30px;
+  text-align: center;
+}
+
+.text h2 {
+  font-family: nexa;
+  font-weight: lighter;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.about-container img {
+  width: 100%; /* Make image responsive */
+  max-width: 300px; /* Constrain image size */
+  height: auto;
+  border-radius: 0px 30px;
+}
+
+.cupcake-1 {
+  display: none;
+}
+
+.about-text {
+  text-align: center;
+  padding: 10px;
+}
+
+.about-text h2 {
+  font-size: 1.5rem;
+  color: rgb(235, 23, 23);
+  text-shadow: 1px 1px black;
+}
+
+.about-text p {
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.img-container img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 0px 30px;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.video-container video {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.testimonial {
+  font-size: 1.5rem;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 0px 30px;
+  text-align: center;
+}
+
+.testimonial h2 {
+  color: rgb(255, 23, 23);
+}
+
+.footer-container {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.footer-container p {
+  font-size: 0.8rem;
+}
+
+/* Responsive Design for Mobile Devices (480px and below) */
+@media screen and (max-width: 480px) {
+  .nav-container {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .nav p {
+    font-size: 0.7rem;
+  }
+
+  .text {
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 0px 20px;
+  }
+
+  .img-container {
+    gap: 5px;
+  }
+
+  .about-container {
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .about-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .about-text p {
+    font-size: 0.7rem;
+  }
+
+  .video-container video {
+    max-width: 200px;
+  }
+
+  .testimonial {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  .footer-container {
+    padding: 15px;
+  }
+
+  .footer-container p {
+    font-size: 0.7rem;
+  }
+}
