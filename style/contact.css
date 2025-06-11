@@ -17,7 +17,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  background-color: rgb(255, 255, 0);
+  background-color: #ffd700;
   padding: 50px;
   margin-bottom: 200px;
 }
@@ -222,7 +222,7 @@ textarea:focus {
   }
   .menu a {
     text-decoration: none;
-    color: yellow;
+    color: gold;
     letter-spacing: 0.2rem;
     cursor: pointer;
     text-align: center;
@@ -279,7 +279,7 @@ textarea:focus {
   }
   .menu a {
     text-decoration: none;
-    color: yellow;
+    color: gold;
     letter-spacing: 0.2rem;
     cursor: pointer;
     text-align: center;
