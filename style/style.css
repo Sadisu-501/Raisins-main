@@ -45,7 +45,7 @@ body {
 }
 
 .nav-content a:hover {
-  color: #ff5722;
+  color: #ffd700;
   transition-delay: color 300ms ease-in-out;
   cursor: pointer;
 }
@@ -101,18 +101,14 @@ body {
 .drink-card {
   width: 300px;
   height: 400px;
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0px 3px #ffd700;
   overflow: hidden;
   display: flex;
   flex-direction: column;
 }
-.food-card,
-.cake-card,
-.drink-card:hover {
-  box-shadow: 0 5px 30px rgba(250, 185, 5, 0.986);
-}
+
 .drink-card img {
   height: 60%;
   width: 90%;
@@ -122,6 +118,8 @@ body {
   height: 60%;
   width: 100%;
   object-fit: cover;
+  border-radius: 20px;
+  margin-top: -15px;
 }
 
 .food-info {
@@ -221,25 +219,6 @@ body {
   transition-delay: 200ms;
 }
 
-/* Responsive tweak */
-@media (max-width: 768px) {
-  .footer-social {
-    justify-content: center;
-  }
-}
-/* Responsive Design */
-@media (max-width: 768px) {
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer-links {
-    justify-content: center;
-    margin-top: 20px;
-  }
-}
 /*responsive design for large screen devices*/
 
 @media screen and (max-width: 1024px) {
@@ -293,7 +272,9 @@ body {
   .nav-content {
     display: none;
   }
-
+  .nav-container {
+    margin-bottom: 0;
+  }
   .nav-container img {
     border-radius: 30px;
     width: 50%;
@@ -304,7 +285,7 @@ body {
     font-size: 2rem;
     cursor: pointer;
     margin-top: 10px;
-    margin-left: 25px;
+    margin: 0 auto;
     color: #ffff;
   }
   .menu {
@@ -316,6 +297,7 @@ body {
     left: 0;
     background-color: #000000;
     width: 100%;
+    height: 50vh;
     padding: 1rem;
     animation: ease-in-out;
   }
@@ -337,6 +319,7 @@ body {
   }
 
   .marquee-container {
+    /* display: none; */
     padding: 2rem;
     background-color: #f1eded;
   }
@@ -361,5 +344,20 @@ body {
     margin-right: 20px;
     width: 30px;
     height: 30px;
+  }
+  .footer-logo h2 {
+    text-align: center;
+    margin: 0px 20px 0 0;
+    font-size: 1rem;
+    color: #f39c12;
+  }
+  .footer-text p {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 20px 0px;
+    font-size: 15px;
   }
 }

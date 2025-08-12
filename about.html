@@ -4,150 +4,222 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <title>ABOUT US</title>
+
+    <script defer src="js/index.js"></script>
   </head>
   <body>
-    <section>
+    <nav>
       <div class="nav-container">
-        <div class="nav">
-          <img src="img/raisins-logo.jpg" alt="raisins logo">
-      
-          <p>No.9 Audu Bako way, Nassarawa GRA, Kano State.</p>
-        </div>       
-      </div>
+        <img src="img/raisins-logo.jpg" alt="raisins-logo" />
 
-      <!--About text-->
-      <div class="text">
-        <h2>About us</h2>
-      </div>
-
-      <!--image container-->
-      <div class="img-container">
-        <span>
-          <img src="img/ali.jpg" alt="staffs at work" />
-        </span>
-        <span>
-          <img src="img/post.jpg" alt="raisins sign post" />
-        </span>
-        <span>
-          <img src="img/post3.jpg" alt="outdoor view" />
-        </span>
-      </div>
-    </section>
-    
-      
-     
-      <div class="about-container">
-        <div>
-          <img src="img/burger.png" alt="burger" />
+        <div class="nav-content">
+          <a href="index.html">Home</a>
+          <a href="index.html">Menu</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
         </div>
-       
+        <!--hamburger icon-->
+        <div id="hamburgerIcon" class="menuBtn">
+          <ion-icon class="icon" name="grid-outline"></ion-icon>
+        </div>
+        <div id="menu" class="menu close">
+          <a href="index.html" target="_blank" rel="noopener noreferrer"
+            >Home</a
+          >
+          <a href="index.html" target="_blank" rel="noopener noreferrer"
+            >Menu</a
+          >
+          <a href="about.html" target="_blank" rel="noopener noreferrer"
+            >About</a
+          >
+          <a href="contact.html" target="_blank" rel="noopener noreferrer"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!--About  us section -->
+
+    <div class="about-text-container">
+      <div>
+        <img src="img/post (2).jpg" alt="raisins sign board" />
+      </div>
+
+      <div>
+        <div class="about-head">
+          <h2>About us</h2>
+        </div>
+
+        <p>
+          Welcome to Raisins Bakery & more, we specialize in both National and
+          Continental dishes <br />
+          made by our top notch chefs. Our serene and conducive environment
+          <br />
+          will help you relax after a long day, while our food nourishes your
+          soul and blesses your taste buds.
+        </p>
+
+        <button class="explore-btn">Explore Menu</button>
+      </div>
+    </div>
+
+    <!--image container-->
+    <div class="img-container">
+      <div class="img-contents">
+        <img src="img/ali.jpg" alt="staffs at work" />
+        <img src="img/post.jpg" alt="raisins sign post" />
+        <img src="img/post3.jpg" alt="outdoor view" />
+      </div>
+    </div>
+
+    <div class="about-container">
+      <div class="about-card">
+        <img src="img/burger.png" alt="burger" class="about-image" />
+
         <div class="about-text">
           <h2>RESTAURANT</h2>
           <p>
-            Welcome to Raisins Bakery & more,<br> we specializes in both National and
-            Continental dishes <br> made by our top notch chefs. <br>
-            our serene and conducive environment <br>
-            will help you relax after a long day, <br>
-            while our food nourishes your soul <br> and blesses your taste buds</p>
-        </div >
-      
+            Welcome to Raisins Bakery & more. We specialize in both National and
+            Continental dishes made by our top-notch chefs.
+          </p>
+          <p>
+            Our serene and conducive environment will help you relax after a
+            long day, while our food nourishes your soul and blesses your taste
+            buds.
+          </p>
+          <button class="explore-btn">Explore Menu</button>
         </div>
-
-        <div class="about-container">
-          <div class="cupcake-1">
-            <img src="img/bakery.jpg" alt=" cake platter" />
-           </div>
-          <div class="about-text">
-            <h2>BAKERY</h2>
-            <p>
-              We have a strong reputation <br> for producing Quality and affordable cakes & confectionaries.
-              <br> we have built a state of the art see-through Bakery <br> where all our baking activities can be seen by our customers. <br>
-              it is where we also produce our signatory "Raisins Bread"
-              </p>
-          </div>
-         <div class="cupcake-2">
-          <img src="img/bakery.jpg" alt=" cake platter" />
-         </div>
-         
-        </div>
-
-     <div class="about-container">
-      <div>
-        <img src="img/event.png" alt="event setting">
       </div>
+    </div>
 
-    <div class="about-text">
-  <h2>PARTY SPACE</h2>
-  <p>
-   we also have medium-sized halls <br> to cater for your events and
-   Get-togethers at an affordable rate.<br>
-   we take care of your Birthdays, Bridal showers, conference meetings etc.
-  </div>
-     </div>
-    
+    <div class="about-container">
+      <div class="about-card">
+        <img src="img/pancake.jpg" alt="burger" class="about-image" />
 
-                   <!--TESTIMONIAL VIDEO SECTION-->
-  <section>
+        <div class="about-text">
+          <h2>Bakery</h2>
+          <p>
+            We have a strong Reputation for producing Quality & affordable cakes
+          </p>
+          <p>
+            we have built a state of the art see-through Bakery where all our
+            activities can be seen by You
+          </p>
+          <p>It is where we also produce our Signatory "Raisins Bread".</p>
+          <button class="explore-btn">Explore Menu</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-container">
+      <div class="about-card">
+        <img src="img/event.png" alt="burger" class="about-image" />
+
+        <div class="about-text">
+          <h2>Party Space</h2>
+          <p>
+            We also have Medium sized Halls to cater for your Events and
+            Get-togethers at an affordable price
+          </p>
+
+          <p>
+            We take care of your Birthdays, Bridal Shower, Conference,
+            Workshops, Graduation Parties etc.
+          </p>
+          <button class="explore-btn">Explore Menu</button>
+        </div>
+      </div>
+    </div>
+
+    <!--TESTIMONIAL VIDEO SECTION-->
     <div class="testimonial">
       <h2>Testimonials</h2>
     </div>
 
     <div class="video-container">
-      <span>
+      <div class="video-card">
         <video
-
           src="vid/gift.mp4.mp4"
-          width="500px"
+          width="100%"
           controls
           poster="img/raisins-logo.jpg"
           autoplay
           muted
           loop
         ></video>
-      </span>
-      <span>
+      </div>
+
+      <div class="video-card">
         <video
           src="vid/neon.mp4.mp4"
-          width="500px"
+          width="100%"
           controls
           poster="img/raisins-logo.jpg"
           autoplay
           muted
           loop
         ></video>
-      </span>
-    </span>
-    <span>
-      <video
-        src="vid/cream.mp4.mp4"
-        width="500px"
-        controls
-        poster="img/raisins-logo.jpg"
-        autoplay
-        muted
-        loop
-      ></video>
-    </span>
-    </div>
-    
-  </section>
-   <!--footer section-->
-    <section>
-      <footer>
-      <div class="footer-container">
-       
-         
-          <div>
-            <p>VISIT US TODAY: NO.9 AUDU BAKO WAY NASSARAWA GRA.</p>
-          </div>
-          <div class="footer-text">
-            <p>RAISINS RESTAURANT &copy; 2025. All Rights Reserved.</p>
-          </div>
       </div>
-      <svg viewBox="0 0 1356 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(41, 121, 186, 1)" d="M 0 10 L 573 131 L 573 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(41, 121, 186, 1)" d="M 572 131 L 669 146 L 669 0 L 572 0 Z" stroke-width="0"></path> <path fill="rgba(47, 73, 94, 1)" d="M 668 146 L 1356 24 L 1356 0 L 668 0 Z" stroke-width="0"></path></svg>
-      </footer>
-    </section>
-   
+
+      <div class="video-card">
+        <video
+          src="vid/cream.mp4.mp4"
+          width="100%"
+          controls
+          poster="img/raisins-logo.jpg"
+          autoplay
+          muted
+          loop
+        ></video>
+      </div>
+    </div>
+    <!--footer section-->
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>Raisins Restaurant Bakery & More</h2>
+          <div class="footer-text">
+            <p>RESTAURANT</p>
+            <p>BAKERY</p>
+            <p>CATERING</p>
+            <p>PARTY SPACE</p>
+          </div>
+        </div>
+
+        <div class="footer-social">
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://wa.me/" target="_blank" aria-label="WhatsApp"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <a href="https://www.tiktok.com" target="_blank" aria-label="TikTok"
+            ><i class="fab fa-tiktok"></i
+          ></a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Raisins Restaurant. All rights reserved.</p>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
