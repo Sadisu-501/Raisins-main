@@ -333,6 +333,12 @@ body {
     grid-template-columns: repeat(1, 300px);
   }
 
+  .food-image {
+    border-radius: 2px;
+  }
+  .drink-card img {
+    margin-top: 5px;
+  }
   .title {
     text-align: center;
     font-size: 1.2rem;
@@ -347,8 +353,8 @@ body {
   }
   .footer-logo h2 {
     text-align: center;
-    margin: 0px 20px 0 0;
-    font-size: 1rem;
+    margin: 0 auto;
+    font-size: 14px;
     color: #f39c12;
   }
   .footer-text p {
@@ -357,7 +363,10 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.5rem;
-    margin: 20px 0px;
-    font-size: 15px;
+    margin: 0 auto;
+    font-size: 10px;
+  }
+  .footer-social a {
+    font-size: 14px;
   }
 }
