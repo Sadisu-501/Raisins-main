@@ -137,6 +137,33 @@ textarea:focus {
   outline: none;
   border-color: #007bff;
   box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+  resize: none;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background-color: gray;
+}
+.red {
+  background-color: red;
+  z-index: 1;
+  border-radius: 100px;
+}
+.green {
+  bottom: 80px;
+  left: 55px;
+  background-color: green;
+  z-index: 1;
+  border-radius: 100px;
+}
+.yellow {
+  background-color: yellow;
+  top: -100px;
+  left: 90px;
+  z-index: 2;
+  border-radius: 100px;
 }
 
 /*footer styles*/
@@ -209,6 +236,7 @@ textarea:focus {
   transform: scale(1.5);
   transition-delay: 200ms;
 }
+
 /*responsive layout for small laptop screen*/
 
 @media screen and (max-width: 1024px) {
